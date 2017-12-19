@@ -1,0 +1,466 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+  color: #FAF0E6;
+}
+
+body{
+  height: 100vh ;
+  margin: 0;
+  border-size: border-box;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+article {
+  text-align: center;
+  width: 33.33%;
+  height: 33.33%;
+}
+
+img {
+  width: 50%;
+  margin: 15%;
+  border-radius: 100%
+
+}
+
+button {
+  height: 15%;
+  width: 25%;
+  background-color: #1F4757;
+  border: 2px solid #F5F5F5;
+  border-radius: 0%;
+  font-size: 1em;
+  margin-left: 10%;
+}
+
+h1 {
+  font-size: 1.7em;
+  margin-left: 10%;
+}
+
+p {
+  width: 85%;
+  margin-left: 10%;
+  padding-bottom: 1em;
+  font-size: 1.3em;
+}
+
+h4 {
+  position: relative;
+  bottom: 25%;
+  font-size: 1.3em;
+}
+
+.arrow-container{
+  margin: 0;
+  width: 100%;
+  position: relative;
+  top: 50%;
+}
+
+.box-1 img {
+}
+.category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 100vh;
+} 
+
+.portrait {
+  background-image: url(images/alexander-andrews-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100vh;
+}
+
+
+
+.header {
+  margin: 0;
+  height: 33.33%;
+  width: 66.66%;
+  background-color: #1F4757;
+}
+
+.dots {
+  color: #FAF0E6;
+  font-size: 10px;
+  text-align: right;
+  margin: 7px;
+}
+
+#light-dot {
+  color:#808080;
+
+}
+
+.box-1 {
+  background-color: #72416C;
+}
+
+.box-2 {
+  background-color: #425f43;  
+}
+
+.box-3 {
+  background-color: #15282D; 
+}
+
+.box-4 {
+  background-color: #638388; 
+}
+
+.box-5 {
+  background-color: #2b2a35; 
+  
+}
+
+.box-6 {
+  background-color: #411847; 
+}
+
+.box-7 {
+  background-color: #5D594D; 
+
+}
+
+.left {
+  font-size: 2em;
+  margin: 0;
+  width: 49%;
+  position: relative;
+  top: 53%;
+  left: -18%;
+}
+
+.right{
+  /*display: inline-block;*/
+  font-size: 2em;
+  margin: 0;
+  width: 50%;
+  position: relative;
+  top: 19.5%;
+  right: -60%;
+}
+
+#icon-button {
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 1250px) {
+  h1 {
+    margin-top: 5%
+    margin-bottom: 5%;
+    font-size: 2em;
+  }
+
+  button {
+    width: 30%;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  img {
+    width: 65%;
+  }
+
+  h4 {
+    margin-top: 25%;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+    h1 {
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    h4 {
+      font-size: 1.2em;
+      position: relative;
+      bottom: 25%;
+    }
+
+    img {
+      margin: 25%;
+      width: 50%;
+    }
+
+    button {
+      width: 30%;
+      font-size: 1em;
+    }
+
+    .right {
+      position: relative;
+      top: 19.5%;
+    }
+  }
+@media screen and (max-width: 1020px) {
+   main {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+     .category {
+      width: 100%;
+      height: 70%;
+    }
+
+    .portrait {
+      background-position: 0 -450px;
+      width: 100%;
+      height: 30%;
+    }
+
+    img {
+      width: 55%;
+      margin: 0;
+      margin-top: 20%
+    }
+
+    h4 {
+      font-size: 1.2em;
+      position: 
+      bottom: 25%;
+    }
+
+    button {
+      width: 30%;
+    }
+    .box-1 {
+      height: 35%;
+    }
+
+    .category {
+      width: 100%;
+      height: 70%;
+    }
+
+    .header {
+      height: 35%;
+    }
+  }
+
+@media screen and (max-width: 930px) {
+
+    img {
+      margin: 15% 0% 0% 0%;
+    }
+
+    h4 {
+      font-size: 1.5em;
+      position: relative;
+      bottom: 22%;
+    }
+
+    p {
+      width: 79%;
+
+    }
+}
+
+@media screen and (max-width: 820px) {
+  button {
+    width: 25%;
+  }
+
+  img {
+    width: 55%;
+  }
+
+  h4{
+    font-size: 1.2em;
+    position: relative;
+    bottom: 25%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 1.3em;
+  }
+
+  button {
+    width: 30%;
+  }
+
+  .header {
+    height: 40%;
+
+  }
+
+  .box-1 {
+    height: 40%;
+  }
+
+  .box-1 h4{
+    position: relative;
+    bottom: 19%
+  }
+
+  .portrait {
+    background-position: 0 -406px
+  }
+
+  .left {
+    font-size: 1.8em;
+  }
+
+  .right {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 45%;
+  }
+
+  button {
+    width: 30%;
+  }
+
+  h4 {
+    position: relative;
+    bottom: 25%;;
+  }
+
+  p {
+    font-size: 1.2em;
+    width: 85%;
+  }
+
+  .box-1 img {
+    width: 50%;
+  }
+
+  .box-1 h4 {
+    position: relative;
+    bottom: 18%;
+  }
+
+  .header {
+    height: 40%;
+  }
+
+  .box-1 {
+    height: 40%; 
+
+  }
+
+  .right {
+    position: relative;
+    top: 17.5%;
+  }
+  .portrait {
+    background-position: 0 -545px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+
+  article {
+    width: 50%;
+    height: 40%;
+  }
+
+  p {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.3em;
+  }
+
+  button {
+    font-size: 1em;
+    height: 20%;
+    width: 40%;
+    margin: 4px;
+    margin-left: 20px;
+  }
+
+  .portrait {
+    background-position: 1px -387px;;
+  }
+
+  .box-7 img {
+    width: 25%;
+    height: 40%;
+    margin: 5%;
+  }
+
+  .box-7 {
+    width: 100%;
+  }
+
+  .box-7 h4 {
+    position: relative;
+    bottom: 3%;
+    margin-top: 0
+  }
+
+  .header {
+    width: 100%;
+    height: 45%
+  }
+
+}
+
+@media screen and (max-width: 340px){
+  .portrait {
+    background-position: -1px -273px
+  }
+
+  .right {
+    position: relative;
+    top: 13.5%;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.9em;
+    margin: 0 auto;
+  }
+
+  h4 {
+    font-size: 1em;
+    position: relative;
+    bottom: 18%;
+  }
+}
+
+
