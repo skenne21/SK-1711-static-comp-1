@@ -4,7 +4,9 @@ This was given as a css static comp challenge these challenges get harder as we 
 
 This is a picture of the comp I was given as a challenge:
 
-![Picture of the comp given for challenge](images/comp-given.png "Description goes here"
+
+
+![Picture of the comp given for challenge](comp-given.png "Description goes here"
 
 ![static comp given](http://images/comp-given.png)
 
