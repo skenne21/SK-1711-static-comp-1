@@ -4,4 +4,7 @@ This was given as a css static comp challenge these challenges get harder as we 
 
 This is a picture of the comp I was given as a challenge:
 
-![static comp given](https://raw.githubusercontent.com/skenne21/SK-1711-static-comp-1/master/images//img.png
+![static comp given](https://raw.githubusercontent.com/skenne21/SK-1711-static-comp-1/master/images/comp-given.png
+
+
+![Static comp recreated](https://raw.githubusercontent.com/skenne21/SK-1711-static-comp-1/master/images/to/img.png
