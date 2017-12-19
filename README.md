@@ -9,4 +9,4 @@ This is a picture of the comp I was given as a challenge:
 
 ![Static comp recreated](https://raw.githubusercontent.com/skenne21/SK-1711-static-comp-1/master/images/fullsite-screen-shot.png.png
 
-![Mobile comp](https://raw.githubusercontent.com/skenne21/SK-1711-static-comp-1/master/to/img.png
+![Mobile comp](https://raw.githubusercontent.com/skenne21/SK-1711-static-comp-1/master/images/mobile-screen-shot.png.png
